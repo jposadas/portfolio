@@ -1,0 +1,162 @@
+html, body {
+    height: 100%;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+
+}
+
+.sidebar {
+    background-color: #040D14;
+    opacity: 0.85;
+    height: 100%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.sidebar .title {
+    font-family: 'Marcellus SC', serif;
+    padding: 8% 0;
+    font-size: 45px;
+    color: #F9F9F9;
+    letter-spacing: -2px;
+}
+
+.sidebar .green {
+    color: #00A886;
+}
+
+.sidebar a {
+    color: #F9F9F9;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    color: #00A886;
+}
+
+.sidebar .img-juan {
+    margin: 0 auto;
+    padding: 7% 0;
+    width: 60%;
+}
+
+.sidebar .links {
+    padding-top: 6%;
+    padding-bottom: 10%;
+}
+
+.sidebar .links li {
+    padding: 4px 0;
+    font-size: 18px;
+}
+
+.sidebar .icons {
+    margin: 0 auto;
+}
+
+.sidebar .icons .fa {
+    opacity: 0.6;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.sidebar .icons .fa:hover {
+    opacity: 1.0;
+}
+
+.main-content {
+    transition: all ease 0.5s;
+    background-color: #F9F9F9;
+    height: 100%;
+    color: #4C4C4C;
+    background-size: cover;
+    background-position: center;  
+}
+
+.main-content .link {
+    text-decoration: none;
+    color: #00A886;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.main-content .green:hover {
+    opacity: 1.0;
+    transition: all ease 0.5s;
+}
+
+.main-content .title {
+    text-align: center;
+}
+
+.main-content .template {
+    height: 100%;
+}
+
+.main-content .background-overlay {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    color: white;
+    border-radius: 50%;
+}
+
+.main-content .background-overlay .overlay-content {
+    opacity: 1.0;
+    text-align: center;
+    padding-top: 60px;
+    transition: opacity ease .5s;
+}
+
+.main-content .background-overlay:hover {
+    opacity: 0.8;
+    background-color: #00A886;
+    transition: opacity ease .5s;
+}
+
+.main-content .background {
+    width: 75%;
+    background-size: contain;
+    background-position: center;
+    height: 180px;
+    margin: 15px auto;
+    opacity: 1.0;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.main-content .background.electurefy-background {
+    background-image: url('images/electurefy.jpg');
+}
+.main-content .background.hangster-background {
+    background-image: url('images/hangster.png');
+}
+.main-content .background.playlist-background {
+    background-image: url('images/playlist.png');
+}
+
+.main-content .portfolio-row {
+    padding-top: 40px;
+    font-size: 16px;
+}
+
+.main-content .template .project-description {
+    padding-top: 20px;
+}
+
+.template {
+    display: none;
+    text-align: center;
+}
+.template#about {
+    font-size: 20px;
+    padding-top: 175px;
+    line-height: 2.0;
+}
+
+
+
+.active {
+    display: block;
+}
